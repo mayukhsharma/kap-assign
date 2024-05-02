@@ -21,7 +21,7 @@ const HeadingCard = ({ selectedApp }) => {
           <ThreeDots />
         </div>
       </div>
-      <div class="flex gap-4 text-sm text-[#595959] mt-2">
+      <div class="flex gap-4 text-sm text-[#595959] mt-2 cursor-pointer">
         <div class="flex items-center gap-1">
           <Overview />
           Overview

@@ -4,6 +4,7 @@ import HeadingCard from "./HeadingCard";
 import ServiceInfoCard from "./ServiceInfoCard";
 import EventHistory from './EventHistoryCard';
 import ServiceMetricsCard from './ServiceMetricsCard';
+import EnvVariableBody from './EnvVariableBody';
 
 const Body = () => {
   const [selectedApp, setSelectedApp] = useState(null);
@@ -29,6 +30,7 @@ const Body = () => {
       <ServiceMetricsCard selectedApp={selectedApp} />
       <EventHistory selectedApp={selectedApp} />
       </div>
+      <EnvVariableBody />
     </div>
   );
 }
