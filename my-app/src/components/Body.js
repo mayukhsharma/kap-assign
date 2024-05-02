@@ -3,6 +3,7 @@ import TopNavBar from "./TopNavBar";
 import HeadingCard from "./HeadingCard";
 import ServiceInfoCard from "./ServiceInfoCard";
 import EventHistory from './EventHistoryCard';
+import ServiceMetricsCard from './ServiceMetricsCard';
 
 const Body = () => {
   const [selectedApp, setSelectedApp] = useState(null);
@@ -24,7 +25,10 @@ const Body = () => {
       <TopNavBar selectedApp={selectedApp} setSelectedApp={setSelectedApp} data={data} />
       <HeadingCard selectedApp={selectedApp} />
       <ServiceInfoCard selectedApp={selectedApp} />
+      <div class="flex">
+      <ServiceMetricsCard selectedApp={selectedApp} />
       <EventHistory selectedApp={selectedApp} />
+      </div>
     </div>
   );
 }

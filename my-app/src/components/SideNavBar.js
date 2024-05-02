@@ -24,7 +24,7 @@ const SideNavBar = () => {
   };
 
   return (
-    <div class={`w-1/6 bg-[#37146B] text-white flex flex-col h-screen ${collapsed && 'w-14'}`}>
+    <div class={`w-1/6 bg-[#37146B] text-white flex flex-col h-auto ${collapsed && 'w-14'}`}>
       <div>
         <div class="p-[16px] flex gap-3 items-center">
           <Logo />
@@ -48,7 +48,7 @@ const SideNavBar = () => {
             <SidebarItem icon={Docs} label="Docs" collapsed={collapsed} />
             <div class="bg-[#4D1B95] h-[0.75px] my-1" />
         <div class="px-[16px] pt-[8px] pb-[12px] flex gap-3 items-center font-semibold" onClick={handleCollapse}>
-          <Arrow />
+          <Arrow class="cursor-pointer" />
         </div>
       </div>
     </div>

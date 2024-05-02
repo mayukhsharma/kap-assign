@@ -65,7 +65,7 @@ const EventHistory = ({ selectedApp }) => {
                                 {item.version}
                             </div>
                             <div className="w-1/3">
-                            <div className={`flex w-[55%] items-center text-[14px] border rounded-md pr-1 ${getStatusColor(item.status)}`}>
+                            <div className={`flex w-28 items-center text-[14px] border rounded-md pr-1 ${getStatusColor(item.status)}`}>
                                 {item.status === 'in_progress' && <YellowDot />}
                                 {item.status === 'failed' && <RedDot />}
                                 {item.status === 'successful' && <GreenDot />}
@@ -91,7 +91,7 @@ const EventHistory = ({ selectedApp }) => {
                                 {item.version}
                             </div>
                             <div className="w-1/3">
-                            <div className={`flex w-[55%] items-center text-[14px] border rounded-md pr-1 ${getStatusColor(item.status)}`}>
+                            <div className={`flex w-28 items-center text-[14px] border rounded-md pr-1 ${getStatusColor(item.status)}`}>
                                 {item.status === 'in_progress' && <YellowDot />}
                                 {item.status === 'failed' && <RedDot />}
                                 {item.status === 'successful' && <GreenDot />}
