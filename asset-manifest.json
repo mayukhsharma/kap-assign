@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/kap-assign/static/css/main.f82b954a.css",
+    "main.js": "/kap-assign/static/js/main.3d199a2f.js",
+    "static/js/453.ed3810f9.chunk.js": "/kap-assign/static/js/453.ed3810f9.chunk.js",
+    "static/media/greenTick.svg": "/kap-assign/static/media/greenTick.acbcb0c747a20df464b8030f96a3e51a.svg",
+    "static/media/connections.svg": "/kap-assign/static/media/connections.a9e8c7de525b291f22923f50894d10cc.svg",
+    "static/media/envVariable.svg": "/kap-assign/static/media/envVariable.fdb9a8cd3e603e33764768738b3cbb5a.svg",
+    "static/media/application.svg": "/kap-assign/static/media/application.481c7d463acdeab0b5e6d1b4926c5811.svg",
+    "static/media/delete.svg": "/kap-assign/static/media/delete.2787b4c0fcdbb23a89e9b34e562a7d6f.svg",
+    "static/media/cost.svg": "/kap-assign/static/media/cost.0fa7725cd7a00379cf61923a0a4e0e17.svg",
+    "static/media/admin.svg": "/kap-assign/static/media/admin.2c11efe64672b39f8bc5a109d7a24578.svg",
+    "static/media/arrow.svg": "/kap-assign/static/media/arrow.91fbc25261a6626656036ae41cec788f.svg",
+    "static/media/download.svg": "/kap-assign/static/media/download.7735befe495d260bc0bc7ea14baf3eb0.svg",
+    "static/media/upload.svg": "/kap-assign/static/media/upload.b811cdbe4008bddd6400a54027c86bdf.svg",
+    "static/media/user.svg": "/kap-assign/static/media/user.7001c9f4b54489599ce4c59b0ca129fb.svg",
+    "static/media/security.svg": "/kap-assign/static/media/security.5b630eb5ee4a103f32d6e81130de4454.svg",
+    "static/media/eventHistory.svg": "/kap-assign/static/media/eventHistory.0f604cb724782b739510902c7489398c.svg",
+    "static/media/alerts.svg": "/kap-assign/static/media/alerts.5d53809a39bee9f006f622ea7e6f8559.svg",
+    "static/media/plus.svg": "/kap-assign/static/media/plus.3d3a957f3af104392c297992c359f6bf.svg",
+    "static/media/logo.svg": "/kap-assign/static/media/logo.4cee41b75cce1feae3e3bd3b35df9112.svg",
+    "static/media/overview.svg": "/kap-assign/static/media/overview.120137e3b05e898b5fe26d1cbf08eee7.svg",
+    "static/media/dots.svg": "/kap-assign/static/media/dots.855d3a44e611bc266431cab1bdb3d3f3.svg",
+    "index.html": "/kap-assign/index.html",
+    "static/media/cross.svg": "/kap-assign/static/media/cross.85e5e4bc407c1f716a63a90431960452.svg",
+    "static/media/docs.svg": "/kap-assign/static/media/docs.c5eabd25a38baa1d93a63650e0fc1ea3.svg",
+    "static/media/downArrow.svg": "/kap-assign/static/media/downArrow.06f5acb5418a5f7f0776933767d365b7.svg",
+    "static/media/topArrow.svg": "/kap-assign/static/media/topArrow.6859a11509b9f8af13a2c2c626fad0af.svg",
+    "static/media/alertRedDot.svg": "/kap-assign/static/media/alertRedDot.4b3b4954994431ac5ce6d3b54d5864d5.svg",
+    "static/media/greenDot.svg": "/kap-assign/static/media/greenDot.8e33dda58621c45fe035b79732f9676b.svg",
+    "static/media/redDot.svg": "/kap-assign/static/media/redDot.957e72bded9290f1693713013df806a8.svg",
+    "static/media/yellowDot.svg": "/kap-assign/static/media/yellowDot.0cb19f40d48670745a18c60894b93945.svg",
+    "main.f82b954a.css.map": "/kap-assign/static/css/main.f82b954a.css.map",
+    "main.3d199a2f.js.map": "/kap-assign/static/js/main.3d199a2f.js.map",
+    "453.ed3810f9.chunk.js.map": "/kap-assign/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f82b954a.css",
+    "static/js/main.3d199a2f.js"
+  ]
+}
