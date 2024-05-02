@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import TopNavBar from "./TopNavBar";
 import HeadingCard from "./HeadingCard";
 import ServiceInfoCard from "./ServiceInfoCard";
+import EventHistory from './EventHistoryCard';
 
 const Body = () => {
   const [selectedApp, setSelectedApp] = useState(null);
@@ -23,6 +24,7 @@ const Body = () => {
       <TopNavBar selectedApp={selectedApp} setSelectedApp={setSelectedApp} data={data} />
       <HeadingCard selectedApp={selectedApp} />
       <ServiceInfoCard selectedApp={selectedApp} />
+      <EventHistory selectedApp={selectedApp} />
     </div>
   );
 }

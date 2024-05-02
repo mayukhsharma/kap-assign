@@ -7,14 +7,13 @@ import { ReactComponent as Alerts } from "../icons/alerts.svg";
 import { ReactComponent as AlertRedDot } from "../icons/alertRedDot.svg";
 import { ReactComponent as RedDot } from "../icons/redDot.svg";
 
-
 const HeadingCard = ({ selectedApp }) => {
   return (
     <div class="my-4 mx-8">
       <div class="flex">
         <h1 class="text-xl font-bold">{selectedApp ? selectedApp.name : 'Select Application'}</h1>
         <div class="flex gap-1 ml-auto items-center">
-        <div class={`flex items-center text-[14px] ${selectedApp && selectedApp.status === 'uninstalled' ? 'text-red-500' : 'text-green-500'} bg-[#F0FCF9] border ${selectedApp && selectedApp.status === 'uninstalled' ? 'border-[#E91F04]' : 'border-[#00B88C]'} border rounded-md pr-1`}>
+        <div class={`flex items-center text-[14px] ${selectedApp && selectedApp.status === 'uninstalled' ? 'text-[#E91F04]' : 'text-[#00B88C]'} ${selectedApp && selectedApp.status === 'uninstalled' ? 'bg-[#FEF4F2]' : 'bg-[#F0FCF9]'} ${selectedApp && selectedApp.status === 'uninstalled' ? 'border-[#E91F04]' : 'border-[#00B88C]'} border rounded-md pr-1`}>
             {selectedApp && selectedApp.status === 'uninstalled' && <RedDot />}
             {selectedApp && selectedApp.status !== 'uninstalled' && <GreenDot />}
             {selectedApp ? selectedApp.status : 'status'}

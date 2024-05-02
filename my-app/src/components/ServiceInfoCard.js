@@ -3,7 +3,11 @@ import { ReactComponent as TopArrow } from "../icons/topArrow.svg";
 import { ReactComponent as GreenTick } from "../icons/greenTick.svg";
 
 const ServiceInfoCard = ({ selectedApp }) => {
-    const [isShrunk, setIsShrunk] = useState(false); // State to manage card visibility
+    const [isShrunk, setIsShrunk] = useState(false);
+    if (!selectedApp || !selectedApp.updatedAt) {
+        return null; // Render nothing if selectedApp is null or does not have an updatedAt property
+    }
+     // State to manage card visibility
     const timestamp = selectedApp.updatedAt;
     const date = new Date(timestamp * 1000); // Convert seconds to milliseconds
     const hours = date.getHours(); // Get the hours from the date
