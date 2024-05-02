@@ -45,7 +45,7 @@ const EventHistory = ({ selectedApp }) => {
     };
 
     return (
-        <div class="border shadow-md w-1/2 my-4 mx-8 p-4 rounded-md bg-[#FFFFFF] ml-auto">
+        <div class="border shadow-md w-1/2 my-4 p-4 rounded-md bg-[#FFFFFF] ml-auto">
             <h1 class="text-[#595959] text-[16px] font-bold">Event History</h1>
             <div class="flex justify-between text-sm text-black font-semibold px-4 pt-4 pb-2">
                 <h1 class="w-1/3">Event</h1>

@@ -109,7 +109,7 @@ const ServiceMetricsCard = () => {
   };
 
   return (
-    <div class="border shadow-md w-1/2 my-4 mx-8 p-4 rounded-md bg-white">
+    <div class="border shadow-md w-1/2 my-4 p-4 rounded-md bg-white">
     <h1 class="text-[#595959] text-[16px] font-bold">Service metrics</h1>
     <div class="flex justify-around text-sm text-black font-semibold px-4 pt-4 pb-2">
         <div class={`cursor-pointer text-sm ${selectedGraph==="CPU"?'text-[#6E27D5]':'text-[#595959]'} font-bold`} onClick={handleCPUButtonClick}>

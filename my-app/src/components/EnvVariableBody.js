@@ -45,7 +45,7 @@ const EnvVariableBody = () => {
     };
 
     return (
-        <div className="border shadow-md my-4 mx-8 p-4 rounded-md bg-white">
+        <div className="border shadow-md my-4 p-4 rounded-md h-screen bg-white">
             <div className="flex items-center mb-4">
                 <h1 className="text-[#595959] text-base font-bold">Environment Variables</h1>
                 <div className="ml-auto flex gap-4">
