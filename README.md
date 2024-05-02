@@ -1,3 +1,4 @@
+- Technologies used: Reactjs, Tailwind CSS
 - We can select any application using the Select Application option, then for the selected application it fetches and updates the data for service info and event history
  ![image](https://github.com/mayukhsharma/kap-assign/assets/86524409/3c6b808c-a79e-4286-972e-60000d82f6fd)![image](https://github.com/mayukhsharma/kap-assign/assets/86524409/d1d49f98-6f98-4c77-aaa4-f04051b2e7b1)
 - Using the arrow button we can open and close the service info card![image](https://github.com/mayukhsharma/kap-assign/assets/86524409/1ba91d8a-56e8-409b-86b2-7d3f182c6784)
