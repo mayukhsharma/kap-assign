@@ -30,7 +30,7 @@ const TopNavBar = ({ selectedApp, setSelectedApp, data }) => {
   };
 
   return (
-    <div class="relative"> {/* Make the parent container relative */}
+    <div class="relative">
       <div class="flex my-4 mx-8">
         <div>
           <h1 class="text-[#595959] text-xs font-semibold">Applications</h1>
